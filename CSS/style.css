@@ -58,7 +58,6 @@ div.nav-background{
     margin-top: 51px;
     z-index: 1;
     display: none;
-    transition: 5s ease;
 }
 nav{
     padding-top: 12px;
@@ -78,7 +77,7 @@ nav img{
     float: left;
 }
 
-ul li{
+nav ul li{
     display: inline-block;
     list-style-type: none;
     padding: 6px 10px 8px 10px;
@@ -161,6 +160,7 @@ ul.nav-hide-box li:hover a{
 
 div.nav-hide-social-side{
     margin-top: 13%;
+    margin-right: -0.5%;
     float: right;
     width: 20%;
     z-index: 10;
@@ -223,7 +223,7 @@ div.window-war ul{
     display: inline-block;
 }
 div.window-war ul li {
-    color: #b70707;
+    color: red;
 }
 div.window-war ul li a{
     color: #1b69bf;
@@ -244,6 +244,20 @@ div.window-war-time-news{
     margin-right: 10px;
 
 }
+div.window-war-time-news a{
+    padding-left: 2%;
+    margin-bottom: 2%;
+    font-size: 12px;
+}
+div.window-war-time-news a.online-title{
+    color: red;
+    float: right;
+    margin-right: 2%;
+}
+div.window-war-time-news span{
+    color: #1b69bf;
+    margin-right: 1.5%;
+}
 div.window-war img{
     display: inline;
     margin-top: -30px;
@@ -252,12 +266,14 @@ div.window-war img{
 }
 /**right-now-window**/
 div.right-now{
+    padding-top: 1%;
     width:29%;
     height: 500px;
     float: right;
     margin-right: 10%;
     margin-top: 2%;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.03);
+    border-radius: 5px;
 }
 div.right-now input{
 }
@@ -265,6 +281,20 @@ div.right-now p{
     display: inline-block;
     font-size: 12px;
 }
+div.right-now-news{
+    margin-left: 4%;
+    margin-top: 4%;
+    margin-right: 2%;
+}
+div.right-now-news a{
+    display: block;
+    color: black;
+    font-size: 15px;
+}
+div.right-now-news a:hover{
+   text-decoration: underline;
+}
+
 
 div.main-news{
     width: 60%;
@@ -311,14 +341,21 @@ div.another-news ul li{
     color: white;
     width: 30%;
     text-align: left;
-    padding: 0px;
     float: left;
     margin-left: 15px;
+    transform: translate(0%,-60%);
 }
-/*TO-DO znovupouzitelne*/
+div.another-news ul li:nth-child(2){
+    transform: translate(0%,-45%);
+}
+div.another-news ul li:nth-child(2) a{
+    transform: translate(0%,66%);
+}
+/*TODO znovupouzitelne*/
 div.another-news ul li a{
     color: white;
     font-size: 12px;
+    transform: translate(0%,77%);
 }
 div.another-news ul li a:hover{
     text-decoration: underline;
@@ -457,6 +494,9 @@ ul.main-page-nav{
     border-bottom:1px solid rgba(220,220,220,0.6);
 }
 ul.main-page-nav li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 6px 10px 8px 10px;
     margin-top: -5%;
     margin-bottom: 1%;
 }

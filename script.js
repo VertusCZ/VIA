@@ -1,17 +1,30 @@
-
+//TODO odpocet casu
+//TODO posaci
+//TODO Formular
 /***mobile navigation***/
-$('.click').click(function ()
-{
-    $('.move').toggleClass(".addLeftMargin");
-    $('.hide').toggleClass(".addBonusMargin");
-    $('.mobile-nav-back').toggleClass(".addInlineBlock");
+$('.click').click(function () {
+    $('.move').toggleClass("addLeftMargin");
+    $('.hide').toggleClass("addBonusMargin");
+    $('.mobile-nav-back').toggleClass("addInlineBlock");
+    $('main').toggleClass("menu-mini-disable");
+    $('footer').toggleClass("menu-mini-disable");
+    $('nav').toggleClass("nav-background-mini-screen");
+
+});
+$('.mobile-nav-back').click(function () {
+    $('.move').toggleClass("addLeftMargin");
+    $('.hide').toggleClass("addBonusMargin");
+    $('.mobile-nav-back').toggleClass("addInlineBlock");
+    $('main').toggleClass("menu-mini-disable");
+    $('footer').toggleClass("meni-mini-disable");
+    $('nav').toggleClass("nav-background-mini-screen");
 });
 
 (function($){
     $(function(){
         $(".click").click(function(){
             $(".jq--nav-icon").fadeToggle(0);
-            $(".nav-background").slideToggle(100,"swing");
+            $(".nav-background").slideToggle(200,"swing");
             $(".mobile-nav-back").fadeToggle(0);
             $(".nav-logo").fadeToggle(0);
 

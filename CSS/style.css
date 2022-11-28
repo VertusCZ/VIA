@@ -58,6 +58,7 @@ div.nav-background{
     margin-top: 51px;
     z-index: 1;
     display: none;
+    transition: 5s ease;
 }
 nav{
     padding-top: 12px;
@@ -143,16 +144,7 @@ div.nav-hide-titles{
     float: left;
     padding-bottom: 1%;
 }
-div.nav-hide-titles:nth-child(3){
-    margin-left: 1.2%;
-}
 
-div.nav-hide-titles:nth-child(5){
-    margin-left: -0.8%;
-}
-div.nav-hide-titles:nth-child(6){
-    margin-left: 5.5%;
-}
 div.nav-hide-titles-main-box ul.nav-hide-box{
     margin-left: 15%;
 }
@@ -165,6 +157,35 @@ ul.nav-hide-box li:hover{
 }
 ul.nav-hide-box li:hover a{
     text-decoration: underline;
+}
+
+div.nav-hide-social-side{
+    margin-top: 13%;
+    float: right;
+    width: 20%;
+    z-index: 10;
+}
+div.nav-hide-social-side p{
+    font-size: 15px;
+    color: white;
+    display: inline-block;
+}
+div.nav-hide-social-side a{
+    width: 10%;
+    color: white;
+}
+div.nav-hide-social-side a i{
+    color: white;
+}
+
+div.nav-nameday {
+    margin-top: 2.6%;
+    float: right;
+    width: 20%;
+}
+div.nav-nameday a{
+    font-size: 15px;
+    color: white;
 }
 
 

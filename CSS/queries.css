@@ -3,6 +3,7 @@
     div.container {
         transform: translate(15%, 0%);
     }
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -17,6 +18,54 @@
     }
 }
 /***mobile-nav****/
+@media only screen and (max-width: 2000px) {
+    div.nav-hide-titles:nth-child(3){
+        margin-left: 1.2%;
+    }
+
+    div.nav-hide-titles:nth-child(4){
+        margin-left: 0%;
+    }
+    div.nav-hide-titles:nth-child(5){
+        margin-left: -0.8%;
+    }
+    div.nav-hide-titles:nth-child(6){
+        margin-left: 5.5%;
+    }
+
+}
+@media only screen and (max-width: 1600px) {
+    .addBonusMargin{
+        margin-left: 14%;
+    }
+
+    div.nav-hide-titles-main-box{
+        margin-left: 24%;
+    }
+    div.nav-hide-titles:first-child{
+        margin-left: 0%;
+    }
+    div.nav-hide-titles:nth-child(3){
+        margin-left: -1%;
+    }
+
+    div.nav-hide-titles:nth-child(4){
+        margin-left: -1.5%;
+    }
+    div.nav-hide-titles:nth-child(5){
+        margin-left: -2.5%;
+    }
+    div.nav-hide-titles:nth-child(6){
+        margin-left: 6%;
+    }
+    div.nav-hide-social-side{
+        margin-top: 18%;
+    }
+    div.nav-nameday {
+        margin-top: 1.5%;
+    }
+
+}
 @media only screen and (max-width: 1200px) {
     nav ul li.query-hide{
         display: none;

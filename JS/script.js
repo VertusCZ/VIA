@@ -1,5 +1,4 @@
-//TODO odpocet casu
-//TODO posaci
+//TODO pocasi
 //TODO Formular
 /***mobile navigation***/
 $('.click').click(function () {
@@ -39,6 +38,7 @@ $('.mobile-nav-back').click(function () {
     });
 })(jQuery);
 
+
 // vytvoříme si prázdné pole měsíců
 let mesice = [];
 // postupně přidáme měsíce se svátky, prvky pole tedy bude další pole
@@ -71,3 +71,5 @@ mesice.push(["Iva", "Blanka", "Svatoslav", "Barbora", "Jitka", "Mikuláš", "Ben
 let d = new Date();
 let den = d.getDate()-1;
 let mesic = d.getMonth();
+
+

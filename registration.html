@@ -16,7 +16,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script src="JS/lightbox-plus-jquery.min.js"></script>
-    <script src="JS/timer.js"></script>
+    <script src="JS/uuidv4.js"></script>
     <script src="JS/script.js"></script>
 </head>
 <body>
@@ -114,134 +114,13 @@
 
 <main>
     <div class="container clearfix">
-        <section>
-            <div class="window-war">
-                <a href="#">Útok na Ukrajinu</a>
-                <ul>
-                    <li><a href="#">Reportáže, galerie i velké grafiky. Vše o ruském vpádu na Ukrajinu</a></li>
-                    <li><a href="#">Za dalekou Moskvu umírají etnické menšiny. Kde a jak žijí Burjati, Jakuti či
-                        Tuvinci?</a></li>
-                </ul>
-                <img src="//cdn.xsd.cz/resize/19274fb9157a368297ce87ea10fd1d6f_resize=250,167_.png?hash=bc8a90e5ec331219c62f69363f1d9e9b">
-                <div class="window-war-time-news">
-                    <a href="https://zpravy.aktualne.cz/zahranici/valka-na-ukrajine-2022-online-prenos/r~eb84dab46f0611ed93abac1f6b220ee8/">
-                        <span>12:06</span>Rusko
-                        bude pravděpodobně pokračovat v útocích na ukrajinskou energetickou síť, plynovou
-                        infrastrukturu a základní služby...</a>
-                    <a href="https://zpravy.aktualne.cz/zahranici/valka-na-ukrajine-2022-online-prenos/r~eb84dab46f0611ed93abac1f6b220ee8/">
-                        <span>13:30</span>Rusko odložilo jednání s USA o strategických jaderných zbraních...</a>
-                    <a class="online-title"
-                       href="https://zpravy.aktualne.cz/zahranici/valka-na-ukrajine-2022-online-prenos/r~eb84dab46f0611ed93abac1f6b220ee8/"
-                       class="show-online"><em>Online přenos</em></a>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="right-side">
-                <div class="right-now">
-                    <h3>Právě se děje</h3>
-                    <input type="checkbox" name="potvrzeni">
-                    <p>Zobrazovat sportovní zprávy</p>
-                    <div class="right-now-news">
-                        <p>před 24 minutami </p>
-                        <a href="a">Brazilci bez Neymara udolali disciplinované Švýcary. Zápas rozhodl Casemiro </a>
-                    </div>
-                    <div class="right-now-news">
-                        <p>Aktualizováno před 41 minutami </p>
-                        <a href="a">V týdnu budou teploty dál nad nulou, ale může slabě sněžit. V noci může také
-                            mrznout</a>
-                    </div>
-                    <div class="right-now-news">
-                        <p>před 48 minutami</p>
-                        <a href="a">Březina se neodvolá proti vyloučení z prezidentské volby. Nechci zatížit Česko,
-                            řekl</a>
-                    </div>
-                </div>
-                <div class="timer_president-election">
-                    <h4>Do prezidentských voleb zbývá:</h4>
-                    <div id="countdown">
-                        <ul>
-                            <li><span id="days"></span>days</li>
-                            <li><span id="hours"></span>Hours</li>
-                            <li><span id="minutes"></span>Minutes</li>
-                            <li><span id="seconds"></span>Seconds</li>
-                        </ul>
-                    </div>
-                    <div id="content">
-                        <h5 id="headline"></h5>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="main-news">
-                <img src="images/main_photo.jpg">
-                <div class="main-title">
-                    <a href="page.html">Mocná zbraň Ukrajinců. Rusové zatím nezničili ani jeden raketomet HIMARS dodaný
-                        z
-                        USA</a>
-                    <p>
-                        Ruskou invazi na Ukrajinu sledujeme v online reportáži.
-                    </p>
-                </div>
-            </div>
-            <div class="another-news">
-                <ul>
-                    <li><a href="#"> "Vítězství Rusů nevěřím." Zkušený zpravodajec ukazuje na zásadní chyby a lži v
-                        Kremlu</a></li>
-                    <li><a href="#"> Rusko má v záloze miliony granátů a tisíce raket. U svého spojence v Severní
-                        Koreji</a>
-                    </li>
-                    <li><a href="#">Fotograf získal povolení vstoupit do okupovaného Chersonu. Pořídil ojedinělé snímky
-                    </a></li>
+        <h1>Databáze</h1>
 
-                </ul>
-            </div>
-        </section>
-        <section>
-            <div class="news-with-3-photo">
-                <img src="images/under_photo1.jpg">
-                <img src="images/under_photo2.jpg">
-                <img src="images/under_photo3.jpg">
-                <ul class="blue-titles">
-                    <li><a href="#">ZAHRANIČNÍ</a></li>
-                    <li><a href="#">DOMACÍ</a></li>
-                    <li><a href="#">MAGAZÍN</a></li>
-                </ul>
-                <ul>
-                    <li><a href="#"> Zvířata umírají jako první. Reportáž z míst, kde hrozí největší hladomor za 40
-                        let</a></li>
-                    <li><a href="#"> Miliardové odškodnění za uhlí. Energetické firmy žalují vlády o náhradu ušlých
-                        zisků</a>
-                    </li>
-                    <li><a href="#">Hit Netflixu se dotýká i Česka. Jak ve Vratislavi v létě 1997 mohli odklonit povodeň
-                        a
-                        neudělali to
-                    </a></li>
+        <form id="test-form">
+            <input type="text" name="firstName" placeholder="Jméno"><br>
+            <input type="submit" value="Odeslat">
+        </form>
 
-                </ul>
-
-            </div>
-        </section>
-        <section>
-            <div class="news-window clearfix:after">
-                <a href="#">Sport</a>
-                <img src="images/news_1_photo.jpg">
-                <p>Česká liga</p>
-                <a href="#">Baník zválcoval "Klokany", Jablonec završil nepodařený podzim prohrou s Boleslaví</a>
-                <p class="small_text">Teplice si v mlze poradily s Libercem, na svém stadionu ho zdolaly 2:1.</p>
-            </div>
-        </section>
-        <section>
-            <div class="news-window clearfix:after">
-                <a href="#">Zdravotnictví</a>
-                <img src="images/news_2_photo.jpg">
-                <a href="#">Ministr Vlastimil Válek plánuje vrátit do hry nadstandardy ve zdravotnictví</a>
-                <p class="small_text">Nadstandardy v Česku skončily v roce 2013, nynější ministr zdravotnictví Vlastimil
-                    Válek (TOP 09) je
-                    chce vrátit a také například posílit prevenci.</p>
-            </div>
-        </section>
     </div>
 </main>
 <footer>
@@ -539,6 +418,7 @@
 
 </footer>
 </body>
+<script src="JS/form_JSON.js"></script>
 <script>
     $('.click').click(function () {
         $('.move').toggleClass("addLeftMargin");
@@ -557,5 +437,9 @@
         $('footer').toggleClass("meni-mini-disable");
         $('nav').toggleClass("nav-background-mini-screen");
     });
+
+
+
+
 </script>
 </html>

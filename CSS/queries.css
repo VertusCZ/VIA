@@ -1,5 +1,5 @@
 /***container****/
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1400px) {
     div.container {
         transform: translate(15%, 0%);
     }
@@ -17,6 +17,20 @@
         transform: translate(0.5%, 0%);
     }
     div.right-now{
+        display: none;
+    }
+    div.window-war{
+        width: 60%;
+    }
+    div.window-war img{
+        float: right;
+        margin-right: 2%;
+        width: 30%;
+    }
+    div.window-war-time-news{
+        display: none;
+    }
+    div.timer_president-election{
         display: none;
     }
 }
@@ -45,7 +59,31 @@
     }
 
 }
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1920px) {
+    div.nav-hide-titles{
+        margin-left: 4%;
+    }
+    div.nav-hide-titles:first-child{
+        margin-left: 3.5%;
+    }
+    div.nav-hide-titles:nth-child(3){
+        margin-left: 2%;
+    }
+    div.nav-hide-titles:nth-child(4){
+        margin-left: 1.5%;
+    }
+    div.nav-hide-titles:nth-child(5){
+        margin-left: 0.7%;
+    }
+    div.nav-hide-titles:nth-child(6){
+        margin-left: 6.5%;
+    }
+    div.nav-nameday{
+        margin-top: 6%;
+    }
+
+}
+@media only screen and (max-width: 1400px) {
     .addBonusMargin{
         margin-left: 14%;
     }
@@ -73,7 +111,7 @@
         margin-top: 18%;
     }
     div.nav-nameday {
-        margin-top: 1.5%;
+        margin-top: 8.7%;
     }
 
 }
@@ -107,5 +145,29 @@
     }
     .menu-mini-disable{
         display: none;
+    }
+}
+/****footer***/
+@media only screen and (max-width: 800px) {
+    .footer__box__links{
+        display: none;
+    }
+    .footer-box{
+        margin-right: 15%;
+    }
+    div.footer{
+        margin-left: 10%;
+    }
+}
+/***page1***/
+@media only screen and (max-width: 800px) {
+    .page1-title{
+        width: 50%;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .page1-main-image{
+        width: 80%;
     }
 }

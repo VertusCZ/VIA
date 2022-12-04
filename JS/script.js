@@ -1,5 +1,4 @@
 //TODO pocasi
-//TODO Formular
 /***mobile navigation***/
 $('.click').click(function () {
     $('.move').toggleClass("addLeftMargin");

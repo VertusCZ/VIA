@@ -1,0 +1,43 @@
+
+.registration-window{
+    padding-top: 2%;
+    margin: 10% 5% 10% 5%;
+    width: 80%;
+    height: 600px;
+    background-color: rgba(137, 196, 244, 0.3);
+    border-radius: 20px;
+}
+.registration-window h1{
+    text-align: center;
+}
+form#test-form{
+    padding-top: 1%;
+    width: 50%;
+    margin: 5% 25% 0% 25%;
+    border-radius: 10px;
+    background-color: #1b69bf;
+}
+form#test-form label{
+    color: white;
+   text-align: center;
+    margin: 3% 10% 3% 10%;
+}
+form#test-form input{
+    padding-top: 1.5%;
+    padding-left: 1%;
+    padding-bottom: 1.5%;
+    color: white;
+    margin: 3% 10% 3% 10%;
+    border-radius: 10px;
+    background-color: rgba(137, 196, 244, 0.3);
+    width: 80%;
+}
+form#test-form input[type="submit"]{
+    padding-left: 0%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+form#test-form input[type="date"]{
+    background-color: rgba(137, 196, 244, 0.3);
+}

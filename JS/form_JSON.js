@@ -29,9 +29,17 @@ myForm.addEventListener("submit", function(event){
 
     names.push({
         id:  uuidv4(),
-        firstName: event.target.elements.firstName.value
+        firstName: event.target.elements.firstName.value,
+        lastName: event.target.elements.lastName.value,
+        bornDate: event.target.elements.bornDate.value,
+        email: event.target.elements.email.value
+
     })
+    alert("Byli jste uspěšně zaregistrováni!");
     event.target.elements.firstName.value = ""
+    event.target.elements.lastName.value = ""
+    event.target.elements.bornDate.value = ""
+    event.target.elements.email.value = ""
     saveNames(names)
 
 })

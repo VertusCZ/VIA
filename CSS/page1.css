@@ -1,0 +1,66 @@
+/*************PAGE1***************/
+ul.main-page-nav {
+    padding-top: 2%;
+    padding-left: 2%;
+    border-top: 1px solid rgba(220, 220, 220, 0.6);
+    border-bottom: 1px solid rgba(220, 220, 220, 0.6);
+}
+
+ul.main-page-nav li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 6px 10px 8px 10px;
+    margin-top: -5%;
+    margin-bottom: 1%;
+}
+
+ul.main-page-nav li a {
+    color: #1b69bf;
+}
+
+ul.main-page-nav li a.main-page-title-nav {
+    padding-top: 10%;
+    color: gray;
+    font-size: 18px;
+}
+
+ul.main-page-nav li:hover {
+    background: rgba(137, 196, 244, 0.5);
+}
+
+div.page1-title {
+    margin: 0 5%;
+    font-size: 25px;
+}
+
+div.page1-text p {
+    font-family: Lora, serif;
+    margin: 2% 40% 2% 5%;
+    font-size: 18px;
+}
+
+div.page1-main-image img {
+    margin-left: 5%;
+    width: 70%;
+    height: 90%;
+    border-radius: 3px;
+}
+
+div.page1-main-image p {
+    font-family: Lora, serif;
+    font-size: 12px;
+    margin-left: 5%;
+}
+
+div.page1-main-image2 img {
+    margin-left: 5%;
+    width: 50%;
+    height: 80%;
+    border-radius: 3px;
+}
+
+div.page1-main-image2 p {
+    font-family: Lora, serif;
+    font-size: 12px;
+    margin-left: 5%;
+}
